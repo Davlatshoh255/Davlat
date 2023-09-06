@@ -1,0 +1,1510 @@
+@import url("responsive.css");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slime {
+    width: 50%;
+    height: 5%;
+    background-color: #1F272B;
+}
+
+.slime>p {
+    position: absolute;
+    font-size: 1vw;
+    left: 4vw;
+    color: #fff;
+    top: 1.2vh;
+}
+
+.slime2 {
+    position: absolute;
+    left: 49.5vw;
+    top: 0vw;
+    width: 50%;
+    height: 5%;
+    background-color: #1F272B;
+}
+
+.slime2>button {
+    position: absolute;
+    left: 29.6vw;
+    top: 1.2vh;
+}
+
+.slime2>button:nth-child(2) {
+    left: 32vw;
+}
+
+.slime2>button:nth-child(3) {
+    left: 34vw;
+}
+
+.slime2>button:nth-child(4) {
+    left: 36vw;
+    background-color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.main2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.650);
+    position: absolute;
+    overflow: hidden;
+}
+
+.main>video {
+    width: 100%;
+    padding-bottom: 5vh;
+    background-size: cover;
+}
+
+.navbar {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(142, 140, 140, 0.5);
+}
+
+.navbar-ico>svg {
+    display: contents !important;
+}
+
+.navbar2 {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 7vw;
+    background-color: rgba(142, 140, 140, 0.5);
+}
+
+.navbar>h2 {
+    font-weight: bolder;
+    position: absolute;
+    font-size: 2vw;
+    top: 2vw;
+    color: white;
+    left: 15%;
+}
+
+.navbar2>button {
+    position: absolute;
+    top: 2.5vw;
+    width: 6.5vw;
+    background: none;
+    border: none;
+    font-weight: 700;
+    color: #fff;
+    height: 7vw;
+    display: grid;
+    gap: 2rem;
+}
+
+.navbar2>button>p {
+    transition: 0.5s;
+}
+
+.navbar2>button>p:hover {
+    color: orange !important;
+}
+
+.navbar2>button:nth-child(1) {
+    color: orange !important;
+}
+
+.navbar2>button:nth-child(2) {
+    left: 8vw;
+}
+
+.navbar2>button:nth-child(3) {
+    left: 16vw;
+}
+
+.navbar2>button:nth-child(4) {
+    left: 24vw;
+}
+
+.navbar2>button:nth-child(5) {
+    left: 32vw;
+}
+
+.navbar2>button:nth-child(6) {
+    left: 40vw;
+}
+
+.main2-div {
+    position: absolute;
+    top: 15vw;
+    left: 14vh;
+    width: fit-content;
+    color: white;
+    height: fit-content;
+
+}
+
+.main2-div>h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main2-div>h1 {
+    margin-top: 1.5vw;
+    /* position: absolute; */
+    top: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main2-div>p {
+    margin-top: 1.5vw;
+    /* position: absolute; */
+    top: 6vw;
+}
+
+.main2>button {
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    background-color: red;
+    border-radius: 2vw;
+    position: absolute;
+    top: 30vw;
+    left: 15vh;
+}
+
+.main2>button>p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar-re {
+    width: 10vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.311);
+    position: absolute;
+    background-color: #fff;
+    top: 7vw;
+    display: contents;
+    border-bottom: rgb(0, 0, 0) solid 1vh;
+    left: 67vw;
+}
+
+.navbar-re>p {
+    display: contents;
+}
+
+.navbar-re2 {
+    background-color: #fff;
+    width: 10vw;
+    height: 5vh;
+    position: absolute;
+    display: contents !important;
+    top: 9.6vw;
+    left: 67vw;
+}
+
+.navbar-re2>p {
+    display: contents;
+}
+
+.navbar-re>p {
+    position: absolute;
+    top: 0.8vw;
+    left: 1vw;
+    font-size: 0.8vw;
+}
+
+.navbar-re2>p {
+    position: absolute;
+    top: 0.8vw;
+    left: 1vw;
+    font-size: 0.8vw;
+}
+
+.skrit {
+    position: absolute;
+    top: 10.8vw;
+}
+
+#button-idi>p:hover+.navbar-re {
+    display: block;
+}
+
+.main3 {
+    width: 99vw;
+    height: 175vh;
+    position: absolute;
+    top: 50vw;
+    background-image: url("images/meetings-bg.jpg");
+    background-attachment: fixed;
+}
+
+.main3>.non {
+    left: 7vw;
+    background-image: url("images/service-item-bg.jpg");
+    top: -7vw;
+    border-radius: 2vw;
+    position: absolute;
+    width: 27vw;
+    height: 35vh;
+}
+
+.main3>button {
+    position: absolute;
+    width: 3vw;
+    border: none;
+    height: 6vh;
+    border-radius: 45%;
+}
+
+.main3>.left {
+    left: 1vw;
+    position: absolute;
+    top: -1vw;
+}
+
+.main3>.right {
+    left: 93vw;
+    position: absolute;
+    top: -1vw;
+}
+
+.main3>.non2 {
+    background-image: url("images/service-item-bg.jpg");
+    top: -7vw;
+    left: 36vw;
+    border-radius: 2vw;
+    position: absolute;
+    width: 27vw;
+    height: 35vh;
+}
+
+.main3>.non3 {
+    top: -7vw;
+    background-image: url("images/service-item-bg.jpg");
+    left: 65vw;
+    border-radius: 2vw;
+    position: absolute;
+    width: 27vw;
+    height: 35vh;
+}
+
+.main3>.non>p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 20vh
+}
+
+.main3>.non2>p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 20vh
+}
+
+.main3>.non3>p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 20vh
+}
+
+.main3>div>img {
+    position: absolute;
+    top: 1.6vw;
+    left: 11vw;
+}
+
+.main3>div>a {
+    position: absolute;
+    top: 7vw;
+    left: 8.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.4vw;
+    color: #fff;
+}
+
+#upcom {
+    position: absolute;
+    top: 17vw;
+    left: 86vh;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5vw;
+
+}
+
+.main3>hr {
+    width: 80%;
+    margin-top: 22vw;
+    margin-left: 9vw;
+}
+
+.window12 {
+    position: absolute;
+    left: 4vw;
+    top: 25vw;
+    border-radius: 1.5vw;
+    background-color: #fff !important;
+    width: 23vw !important;
+    height: 30vw !important;
+}
+
+.window12>h2 {
+    position: absolute;
+    top: 2vw;
+    left: 2vh;
+}
+
+.window12>h4 {
+    position: absolute;
+    top: 4vw;
+    left: 2vh;
+}
+
+.window12>h4 {
+    position: absolute;
+    top: 4vw;
+    left: 2vh;
+}
+
+.window12>h4:nth-child(2) {
+    position: absolute;
+    top: 19.8vw;
+    left: 2vh;
+}
+
+.window12>h3 {
+    position: absolute;
+}
+
+.window12>#ha1 {
+    left: 1.7vw;
+    top: 6vw;
+}
+
+.window12>#ha2 {
+    left: 1.7vw;
+    top: 9vw;
+}
+
+.window12>#ha3 {
+    left: 1.7vw;
+    top: 12vw;
+}
+
+.window12>#ha4 {
+    left: 1.7vw;
+    top: 15vw;
+}
+
+.window12>#ha5 {
+    left: 1.7vw;
+    top: 18vw;
+}
+
+.window12>#button12 {
+    width: 20vw;
+    height: 3vw;
+    border-radius: 2vw;
+    color: #fff;
+    border: none;
+    background-color: brown;
+    position: absolute;
+    top: 24vw;
+    left: 1.5vw;
+}
+
+.contact1 {
+    background-image: url("images/meeting-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    position: absolute;
+    top: 25vw;
+    left: 35vw;
+    /* background-color: black; */
+    width: 25vw;
+    height: 30vh;
+}
+
+.contact2 {
+    background-image: url("images/meeting-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    position: absolute;
+    top: 25vw;
+    left: 65vw;
+    /* background-color: black; */
+    width: 25vw;
+    height: 30vh;
+}
+
+.contact3 {
+    background-image: url("images/meeting-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    position: absolute;
+    top: 55vw;
+    left: 35vw;
+    /* background-color: black; */
+    width: 25vw;
+    height: 30vh;
+}
+
+.contact4 {
+    background-image: url("images/meeting-04.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 2vw;
+    border-top-left-radius: 2vw;
+    position: absolute;
+    top: 55vw;
+    left: 65vw;
+    /* background-color:black; */
+    width: 25vw;
+    height: 30vh;
+}
+
+.shadow1 {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    top: 280% !important;
+    background-image: url("images/apply-bg.jpg");
+    background-attachment: fixed;
+}
+
+.contacttxt1,
+.contacttxt2,
+.contacttxt3,
+.contacttxt4 {
+    background-color: rgb(255, 255, 255);
+    width: 25vw;
+    height: 17vh;
+}
+
+.contacttxt1 {
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    position: absolute;
+    top: 40vw;
+    left: 35vw;
+}
+
+.contacttxt2 {
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    position: absolute;
+    top: 40vw;
+    left: 65vw;
+}
+
+.contacttxt3 {
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    position: absolute;
+    top: 70vw;
+    left: 35vw;
+}
+
+.contacttxt4 {
+    border-bottom-right-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    position: absolute;
+    top: 70vw;
+    left: 65vw;
+}
+
+.contacttxt1>p:nth-child(1) {
+    width: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2vw;
+    color: brown !important;
+    text-align: center;
+    top: 0.9vw;
+    border: none;
+    position: absolute;
+}
+
+.contacttxt1>p:nth-child(2) {
+    width: 5vw;
+    position: absolute;
+    top: 2.4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8vw;
+    text-align: center;
+    border: none;
+    height: 1vw;
+}
+
+.contacttxt1>p:nth-child(3) {
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    /* width: 5vw; */
+    /* height: 2vw; */
+}
+
+.contacttxt1>p:nth-child(4) {
+    position: absolute;
+    left: 5vw;
+    top: 3.4vw;
+    width: 15vw;
+    border: none !important;
+    /* height: 1vw; */
+}
+
+.contacttxt2>p:nth-child(1) {
+    width: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2vw;
+    color: brown !important;
+    text-align: center;
+    top: 0.9vw;
+    border: none;
+    position: absolute;
+}
+
+.contacttxt2>p:nth-child(2) {
+    width: 5vw;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 2.4vw;
+    font-size: 1.8vw;
+    text-align: center;
+    border: none;
+    height: 1vw;
+}
+
+.contacttxt2>p:nth-child(3) {
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    /* width: 5vw; */
+    /* height: 2vw; */
+}
+
+.contacttxt2>p:nth-child(4) {
+    position: absolute;
+    left: 5vw;
+    top: 3.4vw;
+    width: 15vw;
+    border: none !important;
+    /* height: 1vw; */
+}
+
+.contacttxt3>p:nth-child(1) {
+    width: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2vw;
+    color: brown !important;
+    text-align: center;
+    top: 0.9vw;
+    border: none;
+    position: absolute;
+}
+
+.contacttxt3>p:nth-child(2) {
+    width: 5vw;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 2.4vw;
+    font-size: 1.8vw;
+    text-align: center;
+    border: none;
+    height: 1vw;
+}
+
+.contacttxt3>p:nth-child(3) {
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    /* width: 5vw; */
+    /* height: 2vw; */
+}
+
+.contacttxt3>p:nth-child(4) {
+    position: absolute;
+    left: 5vw;
+    top: 3.4vw;
+    width: 15vw;
+    border: none !important;
+    /* height: 1vw; */
+}
+
+.contacttxt4>p:nth-child(1) {
+    width: 5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 2vw;
+    color: brown !important;
+    text-align: center;
+    top: 0.9vw;
+    border: none;
+    position: absolute;
+}
+
+.contacttxt4>p:nth-child(2) {
+    width: 5vw;
+    position: absolute;
+    top: 2.4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8vw;
+    text-align: center;
+    border: none;
+    height: 1vw;
+}
+
+.contacttxt4>p:nth-child(3) {
+    position: absolute;
+    left: 5vw;
+    top: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
+    border: none;
+    /* width: 5vw; */
+    /* height: 2vw; */
+}
+
+.contacttxt4>p:nth-child(4) {
+    position: absolute;
+    left: 5vw;
+    top: 3.4vw;
+    width: 15vw;
+    border: none !important;
+    /* height: 1vw; */
+}
+
+.reg1,
+.reg2 {
+    width: 44vw;
+    height: 16vw;
+    position: absolute;
+    /* border: solid 2px red; */
+    background-color: rgba(255, 255, 255, 0.201);
+}
+
+.reg2 {
+    top: 18.5vw;
+}
+
+.reg1>button {
+    position: absolute;
+    top: 10vw;
+    left: 2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: red;
+    border-radius: 2vw;
+    border: none;
+    width: 10vw;
+    height: 3vw;
+}
+
+.reg2>button {
+    position: absolute;
+    top: 10vw;
+    left: 2vw;
+    background-color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 2vw;
+    border: none;
+    width: 10vw;
+    height: 3vw;
+}
+
+.reg1>p {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.reg1>h2 {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    font-size: 1.6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.reg2>p {
+    position: absolute;
+    top: 5vw;
+    left: 2vw;
+    font-size: 1.2vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.reg2>h2 {
+    position: absolute;
+    top: 1.6vw;
+    left: 2vw;
+    font-size: 1.6vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.row {
+    position: absolute;
+    top: 10%;
+    left: 4vw;
+    /* border: solid 2px red; */
+    width: 50%;
+    height: 80%;
+}
+
+.p-haha {
+    display: none !important;
+}
+
+.main4,
+.shadow2,
+.main5 {
+    position: absolute;
+    top: 180vw;
+    width: 100%;
+    height: 110vh;
+    background-color: aqua;
+}
+
+.main4 {
+    position: absolute;
+    top: 180vw;
+    background-image: url("images/meetings-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.shadow2 {
+    position: absolute;
+    top: 230vw;
+    background-image: url("images/facts-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.main5 {
+    position: absolute;
+    top: 290vw;
+    background-image: url("images/meetings-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.soz {
+    position: absolute;
+    top: -19vw;
+    left: 50vw;
+    border-radius: 3vw !important;
+    width: 70vh !important;
+    height: 35vw !important;
+    background-color: #fff;
+    border: solid red 1px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    position: absolute;
+    background-color: #fff;
+    height: 8vw;
+    width: 30vw;
+    border: solid red 1px;
+}
+
+.text1>h3 {
+    margin-left: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2>h3 {
+    margin-left: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text3>h3 {
+    margin-left: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text4>h3 {
+    margin-left: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text1 {
+    top: 3vw !important;
+    left: 2vw;
+    z-index: 4;
+}
+
+.text2 {
+    top: 13vw !important;
+    z-index: 3;
+    left: 2vw;
+}
+
+.text3 {
+    top: 20vw !important;
+    z-index: 1 !important;
+    left: 2vw;
+}
+
+.text4 {
+    top: 25vw !important;
+    z-index: 1;
+    left: 2vw;
+}
+
+.main4,
+.shadow2,
+.main5 {
+    position: absolute;
+    top: 185vw !important;
+    width: 100%;
+    height: 110vh;
+    background-color: aqua;
+}
+
+.main4 {
+    /* width: 100%;
+    height: 80vh; */
+    position: absolute;
+    top: 180vw;
+    background-image: url("images/meetings-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.shadow2 {
+    /* width: 100%;
+    height: 150vh; */
+    position: absolute;
+    top: 235vw !important;
+    background-image: url("images/facts-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.main5 {
+    position: absolute;
+    top: 285vw !important;
+    background-image: url("images/meetings-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.main4>h2 {
+    position: absolute;
+    top: 11vh;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 10vw;
+}
+
+.main4>h5 {
+    position: absolute;
+    top: 18vh;
+    color: #ffffff16;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 10vw;
+}
+
+.in1-img,
+.in2-img,
+.in3-img,
+.in4-img {
+    position: absolute;
+    top: 15vw;
+    left: 10vh;
+    /* border: solid 1px red !important; */
+    width: 20vw;
+    height: 30vh;
+}
+
+.in2-img {
+    background-image: url("images/course-02.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 57vh;
+}
+
+.in3-img {
+    background-image: url("images/course-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 102vh;
+}
+
+.in4-img {
+    background-image: url("images/course-04.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 148vh;
+}
+
+.in1-img {
+    background-image: url("images/course-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 12vh;
+}
+
+.in1-txt,
+.in2-txt,
+.in3-txt,
+.in4-txt {
+    position: absolute;
+    top: 29.9vw;
+    left: 12vh;
+    background-color: #fff;
+    /* border: solid 1px red !important; */
+    width: 20vw;
+    height: 18vh;
+}
+
+#left2 {
+    left: 1vw;
+    position: absolute;
+    top: 28vw;
+    width: 3vw !important;
+    height: 3vw !important;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 2vw;
+}
+
+#right2 {
+    left: 94vw;
+    position: absolute;
+    top: 28vw;
+    width: 3vw !important;
+    height: 3vw !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2vw;
+    border: none;
+}
+
+.in2-txt {
+    left: 57vh;
+}
+
+.in3-txt {
+    left: 102vh;
+}
+
+.in4-txt {
+    left: 148vh;
+}
+
+.in1-txt>h4 {
+    position: absolute;
+    left: 4vw;
+    top: 1.5vw;
+    font-size: 1vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.in1-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 5vw;
+}
+
+.in2-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 5vw;
+}
+
+.in3-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 5vw;
+}
+
+.in4-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 5vw;
+}
+
+.in2-txt>h4 {
+    position: absolute;
+    left: 4vw;
+    top: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.in3-txt>h4 {
+    position: absolute;
+    left: 4vw;
+    top: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.in4-txt>h4 {
+    position: absolute;
+    left: 4vw;
+    top: 1.5vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.in2-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 4vw;
+    left: 1vw;
+}
+
+.in2-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 6vw;
+    left: 2vw;
+}
+
+.in1-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 11vw;
+    left: 2vw;
+}
+
+.in3-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 4vw;
+    left: 1vw;
+}
+
+.in3-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 6vw !important;
+    left: 2vw;
+}
+
+.in3-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 11vw;
+    left: 2vw;
+}
+
+.in4-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 4vw;
+    left: 1vw;
+}
+
+.in4-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 6vw !important;
+    left: 2vw;
+}
+
+.in4-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 11vw;
+    left: 2vw;
+}
+
+.in1-txt>p {
+    color: #1f272b30;
+    position: absolute;
+    /* left: 5vw; */
+    top: 4vw;
+    left: 1vw;
+}
+
+.in1-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 6vw !important;
+    left: 2vw;
+}
+
+.in1-txt>h5 {
+    position: absolute;
+    /* left: 5vw; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 11vw;
+    left: 2vw;
+}
+
+.log-lg1,
+.log-lg2,
+.log-lg3,
+.log-lg4 {
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+    width: 20vw;
+    height: 23vh;
+    border-radius: 2vw;
+    background-color: #ffffff28;
+    /* border: solid red 1px; */
+}
+
+.log-lg2 {
+    top: 42vh !important;
+    left: 35vw;
+}
+
+.log-lg3 {
+    top: 67vh !important;
+}
+
+.log-lg4 {
+    top: 69vh !important;
+    left: 35vw;
+}
+
+.vid-eo {
+    border-radius: 2vw;
+    background-image: url("images/video-item-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #ffffff28;  */
+    position: absolute;
+    left: 60vw;
+    top: 31vh;
+    width: 37vw;
+    height: 55vh;
+}
+
+.vid-eo>img {
+    position: absolute;
+    top: 25vh;
+    left: 35vh;
+}
+
+.shadow2>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 3vw;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+}
+
+.log-lg1>h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3vw;
+    position: absolute;
+    top: 2.5vw;
+    left: 7vw;
+    color: orange;
+}
+
+.log-lg1>p {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 6.5vw;
+    left: 5vw;
+}
+
+.log-lg2>h1 {
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 2.5vw;
+    left: 6vw;
+    color: orange;
+}
+
+.log-lg2>p {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-size: 1.2vw;
+    top: 6.5vw;
+    left: 6vw;
+}
+
+.log-lg3>h1 {
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 2.5vw;
+    left: 7vw;
+    color: orange;
+}
+
+.log-lg3>p {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 6.5vw;
+    font-size: 1.2vw;
+    left: 5.5vw;
+}
+
+.log-lg4>h1 {
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 2.5vw;
+    left: 8vw;
+    color: orange;
+}
+
+.log-lg4>p {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    font-size: 1.2vw;
+    top: 6.5vw;
+    left: 8vw;
+}
+
+.shadow2>#bre>br {
+    display: none;
+}
+
+.registar {
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    width: 60vw;
+    height: 60vh;
+    border-radius: 2vw;
+    background-color: #fff;
+    border: red solid 1px;
+}
+
+.registar>input {
+    position: absolute;
+    top: 7vw;
+    left: 8vh;
+    outline: none;
+    padding-left: 1vw;
+    background-color: #0000000e;
+    width: 16vw;
+    height: 2.3vw;
+    border: none;
+    border-radius: 1vw;
+}
+
+.registar>input:nth-child(3) {
+    left: 40vw !important;
+}
+
+.registar>input:nth-child(4) {
+    left: 22vw !important;
+}
+
+.registar>textarea {
+    position: absolute;
+    top: 12vw;
+    left: 8vh !important;
+    width: 52vw;
+    border: none;
+    outline: none;
+    padding-left: 1vw;
+    padding-top: 1vw;
+    background-color: #0000000e;
+    border-radius: 2vw;
+    height: 23vh;
+}
+
+.registar>textarea>::placeholder {
+    left: -8vw !important;
+}
+
+.registar>button {
+    background-color: brown;
+    border-radius: 2vw;
+    border: none;
+    position: absolute;
+    top: 24vw;
+    left: 8vh !important;
+    width: 14vw;
+    height: 6vh;
+}
+
+.registar>h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 2vw;
+    left: 5vh;
+}
+
+.registar>p {
+    color: #b2afaf2f;
+    position: absolute;
+    top: 3.5vw;
+    left: 5vh;
+}
+
+.tegg {
+    position: absolute;
+    top: 8vw;
+    left: 75vw;
+    width: 20vw;
+    height: 70vh;
+    border: solid red 1px;
+    background-color: brown;
+    border-radius: 1vw;
+}
+
+.tegg>p {
+    position: absolute;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.tegg>p:nth-child(1) {
+    top: 3vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(2) {
+    top: 5vw;
+    font-size: 1.3vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(3) {
+    top: 7vw;
+    color: #b2afaf36;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(4) {
+    top: 9vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(5) {
+    top: 11vw;
+    font-size: 1.3vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(6) {
+    color: #b2afaf36;
+    top: 13vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(7) {
+    top: 15vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(8) {
+    top: 17vw;
+    font-size: 1.3vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(9) {
+    color: #b2afaf36;
+    top: 20vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(10) {
+    top: 22vw;
+    left: 3vw;
+}
+
+.tegg>p:nth-child(11) {
+    top: 24vw;
+    font-size: 1.3vw;
+    left: 3vw;
+}
+
+.main5>p {
+    position: absolute;
+    top: 44vw;
+    color: #b2afaf3a;
+}
+
+#end {
+    position: absolute;
+    top: 47vw;
+    left: 30vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+#end>a {
+    color: orange;
+}
